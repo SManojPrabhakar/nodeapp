@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752697378930",
+    "project_id": "att2-5950c",
+    "storage_bucket": "att2-5950c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752697378930:android:7f82df0f821e7ed5a21aeb",
+        "android_client_info": {
+          "package_name": "com.plcoding.composepaging3caching"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVAqjMyVw5eIDQoQM8y0IgPpgCqjW00aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
