@@ -9,23 +9,23 @@ app.use(cookieParser())
 app.use(express.json());
 app.use(express.static(path.join(__dirname, './public')));
 
-const reportRoutes = require('D:/Data/project/reportRoutes.js');
-const collageRoutes = require('D:/Data/project/collegeRoutes.js');
-const register = require('D:/Data/project/register.js');
-const routes = require('D:/Data/project/pageroutes.js');
-const Login = require('D:/Data/project/Loginroute.js');
-const signup = require('D:/Data/project/signup.js');
-const Attend = require('D:/Data/project/Attendance.js');
-const posts = require('D:/Data/project/posts.js');
-const Userupdates = require('D:/Data/project/Userupdates.js');
-const Fees = require('D:/Data/project/Fees.js');
-const Passwords = require('D:/Data/project/Passwords.js');
-const Blocks=require('D:/Data/project/Blocks.js')
-const Delete=require('D:/Data/project/Delete.js')
-const Notify=require('D:/Data/project/PushNotifi.js');
-const Classes=require('D:/Data/project/Classes.js')
-const Profile=require('D:/Data/project/Profile.js')
-const sendOtpRoutes = require('D:/Data/project/sendOtpRoutes.js');
+const reportRoutes = require('./reportRoutes.js');
+const collageRoutes = require('./collegeRoutes.js');
+const register = require('./register.js');
+const routes = require('./pageroutes.js');
+const Login = require('./Loginroute.js');
+const signup = require('./signup.js');
+const Attend = require('./Attendance.js');
+const posts = require('./posts.js');
+const Userupdates = require('./Userupdates.js');
+const Fees = require('./Fees.js');
+const Passwords = require('./Passwords.js');
+const Blocks=require('./Blocks.js')
+const Delete=require('./Delete.js')
+const Notify=require('./PushNotifi.js');
+const Classes=require('./Classes.js')
+const Profile=require('./Profile.js')
+const sendOtpRoutes = require('./sendOtpRoutes.js');
 // Middleware...
 app.use('/', routes);
 app.use('/otp', sendOtpRoutes);
