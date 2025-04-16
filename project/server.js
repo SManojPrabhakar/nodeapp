@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const cookieParser = require('cookie-parser');
 const PORT = process.env.PORT || 3000;
-const IP_ADDRESS="192.168.79.147"
 
 app.use(cookieParser())
 app.use(express.json());
@@ -45,7 +44,7 @@ app.use("/Notify/",Notify)
 app.use("/class/",Classes)
 app.use("/pro",Profile)
 // Other routes...
-app.listen(PORT,IP_ADDRESS,() => {
+app.listen(PORT,() => {
     console.log(`Server is running on port ${PORT}`);
   });
 
