@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  .background-image  {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   background-size:cover ;
+height:50vh;
+
+   background-repeat: no-repeat;
+ 
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+header h5 {
+  padding-top: 12px;
+}
+#username-display{
+  padding-left: 5px; 
+}
+
+header .user{
+  display: flex;
+}
+ header img{
+  
+  margin-top: 5px;
+  border-radius: 60px;
+
+  height: 50px;
+  width: 50px;
+ }
+
+footer{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  color: white;
+  }
+ 
+  footer img{
+  width:200px;
+  
+  }
+  footer p{
+    color: white;
+text-align: center;
+  margin-top: 30px;
+  }
+  .containers{
+    padding:10px;
+  
+    display: flex;
+justify-content: center;}
+
+    .containers a{
+        color: white;
+       padding-top:70px ;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .containers img{
+        padding-top:50px ;
+       
+    }
+    .containers p{
+        color: white;
+      text-align:left;
+      }
+      .input-field {
+        margin-bottom: 10px;
+        position: relative;
+        max-width: 700px;
+      }
+      
+     .input-field input,
+      select {
+        width: 95%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+  .container {
+    max-width: 1200px;
+    margin: 0.5rem auto;
+   
+  }
+  .profile-details h4{
+    font-weight: bold;
+  }
+
+  #Attpercent{
+    font-weight: bold;
+  }
+  .profile-card {
+    display: flex;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+  
+  }
+  
+  .profile-left {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .profile-left .profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 220px;
+  }
+  
+  .profile-left h2 {
+    margin: 1rem 0;
+  }
+  
+  .profile-left .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .profile-left button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .follow-btn {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .message-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .profile-left .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .profile-left .social-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-left .social-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .profile-right {
+    width: 70%;
+  }
+  
+  .profile-details {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-details h3 {
+    margin: 0.5rem 0;
+    font-weight: bold;
+  }
+  
+  .profile-details button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .project-status {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .project {
+    margin: 0.5rem 0;
+  }
+  
+  .project p {
+    margin: 0;
+  }
+  
+  progress {
+    width: 100%;
+    height: 8px;
+    appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #007bff;
+    border-radius: 4px;
+  }
+  .attendance-status {
+   
+    margin-top: 0.2rem;
+  }
+  
+  .circular-progress {
+    position: relative;
+    width: 120px;
+    height: 130px;
+   
+  }
+  
+  .circular-progress svg {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    transform: rotate(-90deg);
+  }
+  
+  .circular-progress circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke: #e6e6e6;
+    
+  }
+  
+  .circular-progress circle.progress {
+    stroke: #007bff;
+    stroke-linecap: round;
+    stroke-dasharray: 251.2; /* Circumference of the circle (2 * π * radius) */
+    stroke-dashoffset: 37.68; /* Adjust based on percentage (e.g., 85% = 251.2 * (1 - 0.85)) */
+    transition: stroke-dashoffset 0.5s ease;
+  }
+  
+  .circular-progress .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+   
